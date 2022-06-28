@@ -433,6 +433,9 @@ a:link {
     margin-bottom: 70px;
     margin-top: 25px;
 }
+.imgMatches{
+    width: 100%;
+}
 
 @media(max-width:1500px){
     #aboutus {
