@@ -1,0 +1,50 @@
+.shop{
+    width: 100%;
+}
+
+.TituloShop{
+        font-family: chino;
+        color: #4207AD;
+        font-size: 70px;
+}
+
+.contenedorShop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedorShop2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.shopTitulo{
+    font-size: 18px;
+    margin: 5px 0px;
+    
+}
+.shopDesc{
+    padding: 5px;
+    
+}
+.shopTotal{
+    padding: 5px;
+    font-size: 32px;
+}
+.btnShop{
+    background-color: #4207AD;
+    padding: 8px 12px;
+    color: white;
+    border: 0px;
+    width: 280px;
+    text-transform: uppercase;
+}
+.contenedorShop img{
+    padding: 10px;
+    width: 300px;
+}
