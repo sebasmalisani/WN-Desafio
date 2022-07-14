@@ -80,10 +80,31 @@
 @import "footer";
 @import "mainshop";
 @import "maincontact";
+@import "variables";
 
+@mixin propiedades ($ancho,$alto,$colorLetra){
+    width: $ancho;
+    height: $alto;
+    color: $colorLetra;
+}
 
+.btnShop{
+    
+    padding: map-get($btnShop 	, padding);
+    color: map-get($btnShop , color );
+    border: map-get($btnShop ,border );
+    width: map-get($btnShop , width );
+    text-transform: map-get($btnShop , text-transform );
+    @include propiedades(250px,auto ,#fff )
+}
 
-
+@each $key , $var in $colores {
+    .btnShop-#{$key}{
+        @extend .btnShop;
+        background-color: $var;
+    }
+    
+}
 
 
 @media(max-width:1500px){

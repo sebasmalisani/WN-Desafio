@@ -36,14 +36,17 @@
     padding: 5px;
     font-size: 32px;
 }
-.btnShop{
-    background-color: #4207AD;
-    padding: 8px 12px;
-    color: white;
-    border: 0px;
-    width: 280px;
-    text-transform: uppercase;
-}
+
+$btnShop:(
+    background-color: #4207AD,
+    padding: 8px 12px,
+    color: white,
+    border: 0px,
+    width: 280px,
+    text-transform: uppercase,
+
+);
+
 .contenedorShop img{
     padding: 10px;
     width: 300px;

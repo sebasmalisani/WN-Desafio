@@ -349,15 +349,6 @@ a:link {
   font-size: 32px;
 }
 
-.btnShop {
-  background-color: #4207AD;
-  padding: 8px 12px;
-  color: white;
-  border: 0px;
-  width: 280px;
-  text-transform: uppercase;
-}
-
 .contenedorShop img {
   padding: 10px;
   width: 300px;
@@ -479,6 +470,21 @@ a:link {
   color: black;
   border-color: white;
   border-color: black;
+}
+
+.btnShop, .btnShop-primario {
+  padding: 8px 12px;
+  color: white;
+  border: 0px;
+  width: 280px;
+  text-transform: uppercase;
+  width: 250px;
+  height: auto;
+  color: #fff;
+}
+
+.btnShop-primario {
+  background-color: #4207AD;
 }
 
 @media (max-width: 1500px) {
