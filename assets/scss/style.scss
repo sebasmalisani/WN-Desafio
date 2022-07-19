@@ -11,7 +11,7 @@
 }
 
 * {
-    margin: 0;
+    margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: montserrat;
@@ -106,8 +106,23 @@
     
 }
 
+.contenedorMarcas {
+    flex-wrap: wrap;
+}
+
+.contenedorForm {
+    width: 100%;
+    
+}
+
+.mail {
+    width: 100%;
+}
+
+
 
 @media(max-width:1500px){
+    
     #aboutus {
         margin-bottom: 200px;
         font-family: chino;
@@ -126,13 +141,36 @@
         margin-right: 150px;
     }
     .contenedorForm {
-        width: 300px;
+        width: 100%;
         
     }
     .mail {
-        width: 250px;
+        width: 100%;
     }
-
+    .cajaContacto{
+        display: flex;
+        justify-content: space-around;
+        width: 100%
+    }
+    .fullname{
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
+    }
+    .email{
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .text{
+        margin: 10px;
+        width: 300px;
+        padding: 10px;
+    }
+    #btnformu{
+        margin-left: 50px;
+        
+    }
 }
 
 
@@ -200,22 +238,45 @@
         background-image: url(../img/Newsletter_Mobile.jpg);
     }
     #nueve{
-        width: 300px;
+        width: 220px;
         height: 200px;
     }
     #method{
-        width: 300px;
+        width: 220px;
         height: 200px;
     }
     #TL{
-        width: 300px;
+        width: 220px;
         height: 200px;
     }
     #apex{
         display: none;
     }
     
+    .contenedorForm {
+        width: 100%;
+        
+    }
+    .contenedorForm2 {
+        width: 50%;
+        
+    }
+    .mail {
+        width: 100%;
+    }
+    
+    
 
+}
+@media(max-width:1050px){
+    .cajaContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    
 }
 
 /*1652 x 937*/
@@ -240,7 +301,7 @@
     }
 
     .marcas {
-        width: 170px;
+        width: 30%;
     }
     #adi{
         display: none;
@@ -290,6 +351,7 @@
     }
     .contenedorMail {
         background-image: url(../img/Newsletter_Mobile.jpg);
+        
     }
 
     #nueve{
@@ -309,7 +371,22 @@
         display: flex;
         flex-direction: column;
     }
+
+    .contenedorForm {
+        width: 100%;
+        
+    }
     
 
+    .mail {
+        width: 100%;
+    }
+    
+    .cajaDatos{
+        background-color: rgba(128, 128, 128, 0.144);
+        margin: 10px;
+        padding: 10px;
+        width: 400px;
+    }
     
 }

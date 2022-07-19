@@ -48,7 +48,7 @@ a {
 }
 
 .paginas:hover {
-    color: rgb(17, 0, 255);
+    color: #c300ff;
 }
 
 a:link {
@@ -116,6 +116,14 @@ a:link {
 }
 
 .contenedorForm {
+    position: relative;
+    margin-right: 220px;
+    width: 500px;
+    margin-top: 5px;
+    border: rgb(255, 255, 255) solid;
+    border-radius: 2px;
+}
+.contenedorForm2 {
     position: relative;
     margin-right: 220px;
     width: 500px;
