@@ -625,6 +625,114 @@ a:link {
   width: 200px;
 }
 
+.textoAbout {
+  display: flex;
+  margin-left: 120px;
+  text-align: left;
+  align-items: center;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.textoAbout p {
+  margin-top: -10px;
+}
+
+.imgSK {
+  width: 650px;
+  margin-left: 140px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.textoAbout1 {
+  display: flex;
+  margin-left: 120px;
+  text-align: left;
+  align-items: center;
+  font-size: 28px;
+  margin: 10px;
+  background-color: rgba(182, 180, 180, 0.158);
+}
+
+.textoAbout2 {
+  margin: 20px;
+}
+
+.tituloAbout {
+  font-family: gameofsquid;
+  font-size: 42px;
+}
+
+.contenedorAchv {
+  background-color: black;
+}
+
+.contenedorTextoAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big {
+  color: white;
+  font-family: gameofsquid;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.achiv {
+  color: #4207AD;
+  font-family: chino;
+  font-size: 80px;
+  margin-top: -30px;
+}
+
+.contAbout {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.contNum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num {
+  color: #4207AD;
+  font-size: 100px;
+  font-family: chino;
+}
+
+.num2 {
+  color: white;
+  font-size: 24px;
+}
+
+.contenedorMision {
+  display: flex;
+  margin: 20px;
+}
+
+.contVi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num3 {
+  color: #4207AD;
+  font-size: 80px;
+  font-family: chino;
+}
+
+.num4 {
+  font-size: 20px;
+}
+
 @media (max-width: 1500px) {
   #aboutus {
     margin-bottom: 200px;
@@ -637,6 +745,19 @@ a:link {
     flex-direction: column;
   }
   #f1 {
+    width: 600px;
+    margin-left: 140px;
+    margin-right: 150px;
+  }
+  .textoAbout {
+    display: flex;
+    flex-direction: column;
+  }
+  .textoAbout1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgSK {
     width: 600px;
     margin-left: 140px;
     margin-right: 150px;
@@ -718,6 +839,19 @@ a:link {
     margin-left: 140px;
     margin-right: 150px;
   }
+  .textoAbout {
+    display: flex;
+    flex-direction: column;
+  }
+  .textoAbout1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgSK {
+    width: 600px;
+    margin-left: 140px;
+    margin-right: 150px;
+  }
   .fotos3 {
     display: flex;
     justify-content: space-around;
@@ -726,16 +860,16 @@ a:link {
     background-image: url(../img/Newsletter_Mobile.jpg);
   }
   #nueve {
-    width: 220px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
   }
   #method {
-    width: 220px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
   }
   #TL {
-    width: 220px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
   }
   #apex {
     display: none;
@@ -812,27 +946,40 @@ a:link {
     margin-left: 50px;
   }
   #f1 {
-    width: 500px;
-    margin-left: 50px;
+    width: 400px;
+  }
+  .textoAbout {
+    display: flex;
+    flex-direction: column;
+  }
+  .textoAbout1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgSK {
+    width: 400px;
   }
   .fotos3 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    gap: 10px;
   }
   .contenedorMail {
     background-image: url(../img/Newsletter_Mobile.jpg);
   }
   #nueve {
-    width: 150px;
-    height: 180px;
+    width: 250px;
+    height: 150px;
   }
   #method {
-    width: 150px;
-    height: 180px;
+    width: 250px;
+    height: 150px;
   }
   #TL {
-    width: 150px;
-    height: 180px;
+    width: 250px;
+    height: 150px;
   }
   .footer {
     display: flex;
@@ -855,5 +1002,9 @@ a:link {
   }
   .fotoMatch {
     display: none;
+  }
+  .contenedorMision {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
