@@ -1,0 +1,99 @@
+.textoAbout {
+    display: flex;
+    margin-left: 120px;
+    text-align: left;
+    align-items: center;
+    font-size: 28px;
+    margin: 10px;
+}
+
+.textoAbout p {
+    margin-top: -10px;
+}
+
+.imgSK {
+    width: 650px;
+    margin-left: 140px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textoAbout1 {
+    display: flex;
+    margin-left: 120px;
+    text-align: left;
+    align-items: center;
+    font-size: 28px;
+    margin: 10px;
+    background-color: rgba(182, 180, 180, 0.158);
+}
+
+.textoAbout2{
+margin: 20px;
+}
+
+.tituloAbout{
+    font-family: gameofsquid;
+    font-size: 42px;
+}
+
+.contenedorAchv{
+    background-color: black;
+}
+.contenedorTextoAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big{
+    color: white;
+    font-family: gameofsquid;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.achiv{
+    color: #4207AD;
+    font-family: chino;
+    font-size: 80px;
+    margin-top: -30px;
+}
+.contAbout{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.contNum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.num{
+    color: #4207AD;
+    font-size: 100px;
+    font-family: chino;
+}
+.num2{
+    color: white;
+    font-size: 24px;
+    
+}
+.contenedorMision{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.contVi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.num3{
+    color: #4207AD;
+    font-size: 80px;
+    font-family: chino;
+}
+.num4{
+    font-size: 20px;
+    
+}

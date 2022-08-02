@@ -259,6 +259,18 @@ a:link {
   margin-bottom: 100px;
 }
 
+.contenedorMarcas {
+  flex-wrap: wrap;
+}
+
+.contenedorForm {
+  width: 100%;
+}
+
+.mail {
+  width: 100%;
+}
+
 .footer1 {
   grid-area: footer;
 }
@@ -485,33 +497,6 @@ a:link {
   border-color: black;
 }
 
-.btnShop, .btnShop-primario {
-  padding: 8px 12px;
-  color: white;
-  border: 0px;
-  width: 280px;
-  text-transform: uppercase;
-  width: 250px;
-  height: auto;
-  color: #fff;
-}
-
-.btnShop-primario {
-  background-color: #4207AD;
-}
-
-.contenedorMarcas {
-  flex-wrap: wrap;
-}
-
-.contenedorForm {
-  width: 100%;
-}
-
-.mail {
-  width: 100%;
-}
-
 .contenedorMatches {
   display: flex;
   justify-content: space-between;
@@ -714,6 +699,7 @@ a:link {
 
 .contenedorMision {
   display: flex;
+  justify-content: space-evenly;
   margin: 20px;
 }
 
@@ -731,6 +717,21 @@ a:link {
 
 .num4 {
   font-size: 20px;
+}
+
+.btnShop, .btnShop-primario {
+  padding: 8px 12px;
+  color: white;
+  border: 0px;
+  width: 280px;
+  text-transform: uppercase;
+  width: 250px;
+  height: auto;
+  color: #fff;
+}
+
+.btnShop-primario {
+  background-color: #4207AD;
 }
 
 @media (max-width: 1500px) {

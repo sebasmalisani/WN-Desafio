@@ -1,0 +1,44 @@
+.tituloRoster{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: gameofsquid;
+    margin-top: 10px;
+}
+
+.tituloRoster2{
+    display: flex;
+    justify-content: center;
+    font-family: chino;
+    color: #4207AD;
+    font-size: 80px;
+}
+
+.contenedorRoster{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+.contenedorRoster2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+}
+.infoJugador{
+    color: white;
+    width: 200px;
+}
+.apodo{
+    color: #4207AD;
+    font-family: chino;
+    font-size: 50px;
+}
+
+.imgRoster{
+    width: 200px;
+}

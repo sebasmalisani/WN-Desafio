@@ -1,0 +1,61 @@
+.contenedorMatches{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(128, 128, 128, 0.144);
+}
+.contenedorMatch{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contenedorEquipos{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.contenedorResultado{
+    display: flex;
+    
+}
+
+.contenedorResultado2{
+    display: flex;
+    align-items: center;
+}
+.contenedorVivo{
+    display: flex;
+    background-color: #4207AD;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px;
+    gap: 10px;
+    color: white;
+    
+}
+.imgResultado{
+    width: 50px;
+    height: 50px;
+}
+.botonResultado{
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: #4207AD;
+}
+
+.ytResultado{
+    width: 100px;
+}
+.fotoMatch{
+    width: 100px;
+}
+
+.btn1:hover{
+    box-shadow: inset 200px 0 0 0 #4207AD;
+    color: white;
+}
